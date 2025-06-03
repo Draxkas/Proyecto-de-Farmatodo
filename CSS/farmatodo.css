@@ -7,6 +7,34 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: blue;
-  margin: 25px;
+  color: #418fde;
+  margin: 10px;
+}
+
+input {
+  height: 35px;
+  width: 700px;
+  border-radius: 20px 20px 0 20px;
+  border: 1px solid #418fde;
+}
+
+.link:visited, link:link {
+  color: #2890eb;
+  background-color: #2890eb;
+  text-decoration: underline;
+}
+
+.segunda-barra {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 350px 5px 0;
+  background-color: #2890eb;
+}
+
+.cupon:visited, .cupon:link {
+  color: white;
+  background-color: white;
+  text-decoration: none;
 }
