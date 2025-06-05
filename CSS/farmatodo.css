@@ -12,10 +12,21 @@ nav {
 }
 
 input {
+  display: inline-block;
   height: 35px;
   width: 700px;
-  border-radius: 20px 20px 0 20px;
+  border-radius: 20px 0 0 20px;
   border: 1px solid #418fde;
+}
+
+.input {
+  height: 37px;
+  width: 55px;
+  color: white;
+  border-radius: 0 20px 0 0;
+  border: 1px solid #418fde;
+  background-color: #2890eb;
+  margin-left: -5px;
 }
 
 .link:visited, link:link {
@@ -37,4 +48,9 @@ input {
   color: white;
   background-color: white;
   text-decoration: none;
+}
+
+.farmatodo.l {
+  height: 20px;
+  width: 40px;
 }
